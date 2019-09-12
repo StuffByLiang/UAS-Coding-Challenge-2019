@@ -21,7 +21,6 @@
 
 .row {
   display: flex;
-  width: 100%;
 }
 
 .heading {
@@ -68,4 +67,9 @@
     min-width: 45px;
     min-height: 45px;
   }
+}
+
+.heading:first-child {
+  position: sticky;
+  left: 0;
 }

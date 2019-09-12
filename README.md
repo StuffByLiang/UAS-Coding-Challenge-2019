@@ -24,9 +24,11 @@ Functionality Rules:
 * Each operation should only appear once under History
 * The operations under history should be sorted by the first operand
 * If the first operands are equal, they should be sorted by the second operand
+
 UI Design Rules
 * The multiplication table and the History panel should not overflow the page
 * The multiplication table should not take up more than 50% of the page
+
 Bonuses:
 * Make the app responsive on mobile and tablet devices
 * Make the app attractive to users

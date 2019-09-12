@@ -9,60 +9,29 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## View Deployed Project
+https://uas-f-rmt-1.firebaseapp.com/
 
-### `npm test`
+## Task
+You are tasked with writing a simple frontend application using React. You must build an n by n interactive multiplication table. You can view the demo here: 
+https://react-times-table.firebaseapp.com/history
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Functionality Rules:
+* You should easily be able to change the size of the multiplication table
+* Clicking any white square will reveal the product of the row and column
+* Clicking another square should reveal the new product and hide the old product
+* Clicking on a square should add the operation under History
+* Each operation should only appear once under History
+* The operations under history should be sorted by the first operand
+* If the first operands are equal, they should be sorted by the second operand
 
-### `npm run build`
+UI Design Rules
+* The multiplication table and the History panel should not overflow the page
+* The multiplication table should not take up more than 50% of the page
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Bonuses:
+* Make the app responsive on mobile and tablet devices
+* Make the app attractive to users
+* Add any other features you deem fitting for the application
+* Write one (or more) Jest (or any other testing framework) test(s) for the app
+* Deploy the app to a free hosting site (such as firebase) and give the url
